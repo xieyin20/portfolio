@@ -1,0 +1,294 @@
+body{
+	margin: 1%;
+	padding:1%;
+	font-size: 100%;
+	min-width: 320px;
+
+}
+
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);
+}
+
+.navbar-brand{
+	color:#2F7355;
+	font-style: bold;
+}
+
+/*portfolio*/
+#quicklink img{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#carousel{
+	margin-top: 3%;
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+.carousel-caption h1{
+	background-color: rgba(47,115,85,0.8);
+	color:white;
+	font-style: bold;
+}
+.carousel-caption h2{
+	background-color: rgba(47,115,85,0.8);
+	color:white;
+	font-style: bold;
+}
+
+/*aboutme*/
+.bcg {
+	background-position: center center;
+	background-attachment: fixed;
+	height:1024px;
+	width: 100%;
+}
+
+.hsContent h1{
+	background-color: rgba(0,0,0,0.6);
+	color:white;
+	width:50%;
+	font-size: 48px;
+	font-style: bold;
+	padding: 2%;
+	text-transform: uppercase;
+}
+
+.hsContent h2{
+	display: none;
+}
+
+#recenttwitterfeed{
+	display:none;
+}
+/*Slide 1*/
+#slide-1 .bcg {background-image:url('/static/chengdu2.jpg')}
+#slide-1 .hsContent {
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+#dscpt-1{
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('http://www.panpanbamboo.com/wp-content/uploads/2013/04/Giant-Panda-Eating-Bamboo.jpg');margin-top: 0;}
+#slide-2 .hsContent {
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('http://scd.sysu.edu.cn//UploadFiles/jpg/news/2011/01/20110117000006857.jpg')}
+#slide-3 .hsContent {
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('http://admissions.umich.edu/sites/default/files/6c_Explore-and-Visit_College-Fairs.jpg')}
+#slide-4 .hsContent {
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+#socialmedia img{
+	display:none;
+}
+
+#beafriend h1{
+	color:white;
+	font-size: 35px;
+	font-style: bold;
+	padding: 2%;
+	text-transform: uppercase;
+}
+#beafriend p{
+	color:white;
+	font-size: 24px;
+	font-style: bold;
+	padding: 2%;
+}
+#beafriend img{
+	display: inline-block;
+}
+#beafriend {
+	padding:auto;
+}
+
+/*contactme*/
+
+.col-sm-6 {
+	margin-top: 5%;
+
+}
+
+.col-sm-6 table td{
+	width:50%;
+
+}
+.col-sm-6 label{
+	font-size: 14px;
+	font-style: bold;
+	color:#2F7355;
+	text-align: left
+}
+
+.col-sm-6 h1{
+	font-size: 14px;
+	font-style: bold;
+	color:#2F7355;
+	text-align: left
+}
+.col-sm-6 h2{
+	font-size: 14px;
+	font-style: bold;
+	color:black;
+	text-align: left
+}
+
+.button{
+	background-color: #2F7355;
+	border-color: #2F7355;
+	font-size: 14px;
+	color:#fff;
+}
+#homemap{
+	width:80%;
+	height:50%;
+}
+
+/*design*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #2F7355;
+    border-color: #2F7355;
+}
+
+
+/*resume*/
+object{
+	 width:100%;
+	 height:1150px;
+}
+
+iframe{
+	margin-top: 5%;
+}
+
+/*research*/
+.btn-primary {
+    color: #fff;
+    background-color: #2F7355;
+    border-color: #2F7355;
+}
+
+.researchcontent p{
+	display:none;
+}
+
+.youtube{
+	height:350px;
+	width:100%;
+	frameborder="0"
+}
+
+footer {
+    background-color: #2F7355;
+    color: #fff;
+    height: 8%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer a{
+	color:#fff;
+	text-decoration: underline;
+}
+
+
+@media (min-width:800px){
+/*	header h1:after {
+		content:"";
+	}
+	#left{
+		float:left;
+		width:30%;
+		display: inline;
+	}
+	#center{
+		float:right;
+		width:70%;
+		display:inline;
+	}*/
+	.pull-left li a {
+	  color: #5a5a5a;
+	  font-size: 14px;
+	  font-style: bold;
+	  padding: 14px 10px;
+	  text-transform: uppercase;
+	}
+
+	.pull-left li{
+	  display:inline;
+	}
+
+	.pull-right li a {
+	  color: #5a5a5a;
+	  font-size: 14px;
+	  font-style: bold;
+	  padding: 14px 10px;
+	  text-transform: uppercase;
+	}
+
+	.pull-right li{
+	  display:inline;
+	}
+	.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	    color: #fff;
+	    background-color: #2F7355;
+	}
+	object{
+		margin-top: 5%;
+	}
+	.bcg {
+	background-position: center center;
+	background-attachment: fixed;
+	height:1024px;
+	width: 100%;
+	}
+	
+	.hsContent h2{
+	display:block;
+	background-color: rgba(0,0,0,0.6);
+	color:white;
+	width:50%;
+	font-size: 24x;
+	padding: 2%;
+	}
+	
+}
+
+@media (min-width:1280px){
+	#socialmedia img{
+	width:35px;
+	height:35px;
+	display:inline;
+	}
+	#recenttwitterfeed{
+	display:inline;
+	}
+	.researchcontent p{
+	display:block;
+	}
+}

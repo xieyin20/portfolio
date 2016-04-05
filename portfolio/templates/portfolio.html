@@ -1,0 +1,56 @@
+{% extends "templates/base.html" %}
+
+{% block content%}
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="/design.html"><img src="static/initpint1.jpg" class="img-responsive" alt="Oops, this image disappeared!"></a>
+        <div class="carousel-caption">
+          <h1>Graphic Design</h1>
+          <h2>Find some graphic design work of Yin!</h2>
+        </div>      
+      </div>
+
+      <div class="item">
+        <a href="/aboutme.html"><img src="static/initpintu2.jpg" class="img-responsive" alt="Oops, this also image disappeared!"></a>
+        <div class="carousel-caption">
+          <h1>Want to Know more about Yin?</h1>
+          <h2>Places where she has been can tell you a story.</h2>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div> 
+<div id="quicklink" class="container-fluid bg-3 text-center">    
+ <br>
+  <div class="row">
+    <div id="resume" class="col-sm-4">
+      <a href="/resume.html"><img src="static/title_resume.png" class="img-responsive" style="width:100%" alt="Image of portfolio"></a>
+    </div>
+    <div id="portfolio" class="col-sm-4"> 
+      <a href="/design.html"><img src="static/title_portfolio.png" class="img-responsive" style="width:100%" alt="Image of design"></a>
+    </div>
+    <div id="contactme" class="col-sm-4"> 
+      <a href="/contactme.html"><img src="static/title_connect.png" class="img-responsive" style="width:100%" alt="Image of contact me"></a>
+    </div>
+  </div>
+</div><br><br><br>
+
+
+{% endblock %}

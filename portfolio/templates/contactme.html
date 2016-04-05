@@ -1,0 +1,41 @@
+{% extends "templates/base.html" %}
+{% block content %}
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-6">
+     <table>
+      <tr>
+        <td><h1>Name</h1></td>
+        <td><h2>Yin Xie</h2></td>
+      </tr>
+      <tr>
+        <td><h1>Email</h1></td>
+        <td><a href="mailto:xieyin@umich.edu"><h2>xieyin@umich.edu</h2></a></td>
+      </tr>
+      <tr>
+        <td><h1>Phone Number</h1></td>
+        <td><h2>(734)272.7833</h2></td>
+      </tr>
+      <tr>
+        <td><h1>Address</h1></td>
+        <td><h2>1612 Broadway Street, Ann Arbor, MI</h2></td>
+      </tr>
+    </table>
+     <iframe id="homemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.268077841951!2d-83.73113458495372!3d42.29414494725502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae7a5ebcb82b%3A0x43a947a4639598df!2s1612+Broadway+St%2C+Ann+Arbor%2C+MI+48105!5e0!3m2!1sen!2sus!4v1459614859825"  style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-6"> 
+      <form action="MAILTO:xieyin@umich.edu" method="post" enctype="text/plain">
+        <label>First Name:<br> <input type="text" name="firstname" size="100" maxlength="100" placeholder="First Name"></label><br>
+        <label>Last Name (required): <br><input type="text" name="lastname" size="100" maxlength="100" placeholder="Last Name" required></label><br>
+        <label>Email Address (required): <br><input type="email" name="email" size="100" maxlength="100" placeholder="Please Enter Your Email Here" required></label><br>
+        <label>Phone Number: <br><input type="text" name="phonenumber" size="100" maxlength="100" placeholder="Please Enter Your Phone Number Here"></label><br>
+        <label>Comment: <br><textarea name="message" rows="6" cols="100" placeholder="Please Leave Your Message Here"></textarea> </label><br>
+        <input class="button" type="submit" value="SUBMIT">
+        <input class="button" type="reset" value="CLEAR"><br>
+      </form>
+      <br><br><br><br>
+    </div>
+  </div>
+</div>
+	
+{% endblock %}
